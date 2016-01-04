@@ -1,0 +1,3 @@
+.ebextensions/environment.config
+env.js
+node_modules

@@ -1,0 +1,23 @@
+{
+  "name": "one_word_weather_api",
+  "version": "1.0.0",
+  "description": "Example API for pulling one-word weather descriptions from twitter",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulfmagnetics/one_word_weather_api.git"
+  },
+  "author": "John Berry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulfmagnetics/one_word_weather_api/issues"
+  },
+  "homepage": "https://github.com/ulfmagnetics/one_word_weather_api#readme"
+}

@@ -1,0 +1,8 @@
+# Authorize the Feed Reader app at https://apps.twitter.com/app/9326497
+option_settings:
+  - namespace: aws:elasticbeanstalk:application:environment
+    option_name: ACCESS_TOKEN_KEY
+    value: FIXME
+  - namespace: aws:elasticbeanstalk:application:environment
+    option_name: ACCESS_TOKEN_SECRET
+    value: FIXME
