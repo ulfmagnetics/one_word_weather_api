@@ -4,7 +4,8 @@
   "description": "Example API for pulling one-word weather descriptions from twitter",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "twitter-node-client": "0.0.6"
   },
   "devDependencies": {},
   "scripts": {
