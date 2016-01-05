@@ -19,7 +19,8 @@ One Word Weather API
 
 1. Clone this repository
 
-2. Install the AWS Elastic Beanstalk CLI.
+2. Install and configure the AWS Elastic Beanstalk CLI.
+   (For more detailed installation instructions see [Amazon's documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).)
 
 ```
 $ pip install awsebcli
@@ -30,9 +31,10 @@ Collecting awsebcli
 
 $ eb --version
 EB CLI 3.6.2 (Python 2.7.9)
-```
 
-For more detailed installation instructions see [Amazon's documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).
+$ eb init
+
+```
 
 3. Profit!
 
