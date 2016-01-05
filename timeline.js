@@ -1,6 +1,5 @@
 var Twitter = require('twitter-node-client').Twitter;
 
-require('./env.js');
 var config = {
   "consumerKey":        process.env['CONSUMER_KEY'],
   "consumerSecret":     process.env['CONSUMER_SECRET'],

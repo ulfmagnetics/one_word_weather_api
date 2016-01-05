@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
+var development = process.env.NODE_ENV !== 'production';
+if (development) { require('./env.js'); }
+
 app.locals.DEFAULT_LOCALITY = 'sf';
 app.locals.screenNames = {
   sf: 'onewordsfwthr'
