@@ -15,28 +15,46 @@ One Word Weather API
 
 5. A Twitter account. You can create one [here](https://twitter.com/signup) if you don't already have one.
 
-# Installation
+# Local Installation
 
 1. Clone this repository
 
-2. Install and configure the AWS Elastic Beanstalk CLI.
+    ```
+    $ git clone https://github.com/ulfmagnetics/one_word_weather_api.git
+    ```
+
+2. Install Node.js packages
+
+    ```
+    $ npm install
+    ```
+
+3. Install and configure the AWS Elastic Beanstalk CLI.
    (For more detailed installation instructions see [Amazon's documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).)
 
-```
-$ pip install awsebcli
+    ```
+    $ sudo pip install awsebcli
 
-Collecting awsebcli
-  Downloading awsebcli-3.6.2.tar.gz (171kB)
-  ... etc ...
+    Collecting awsebcli
+      Downloading awsebcli-3.6.2.tar.gz (171kB)
+      ... etc ...
 
-$ eb --version
-EB CLI 3.6.2 (Python 2.7.9)
+    $ eb --version
+    EB CLI 3.6.2 (Python 2.7.9)
 
-$ eb init
+    $ eb init
+    ```
 
-```
+4. Authorize the Feed Reader app from the [Twitter app dashboard](https://apps.twitter.com/app/9326497)
 
-3. Profit!
+5. Copy `env.js.example` to `env.js` and fill in the requested API tokens and secrets from Twitter's dashboard.
 
+6. Run the app locally.
 
+    ```
+    npm start
+    ```
 
+# Deploying to Elastic Beanstalk
+
+This section is still TODO.
